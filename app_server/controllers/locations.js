@@ -24,7 +24,7 @@ const push = function(req,res){
                 message:req.body.message
             }
         );
-        res.render('pages/Trainer');}
+        res.render('pages/Home');}
    module.exports = {
     HomePage,
     GalleryPage,

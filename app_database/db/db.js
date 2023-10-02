@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const PORT = process.env.PORT || 3000
 const readLine = require('readline');
 
-let dbURL = 'mongodb://0.0.0.0:27017/GYM';
+let dbURL = 'mongodb://0.0.0.0:27017/PULSE120';
 
 const connectDB = async () => {
     try {

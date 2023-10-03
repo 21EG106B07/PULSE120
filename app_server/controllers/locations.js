@@ -24,7 +24,7 @@ const push = function(req,res){
             message:req.body.message
         }
     );
-    res.render('pages/Home');
+    res.redirect('/');
 }
 module.exports = {
     HomePage,

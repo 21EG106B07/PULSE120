@@ -16,20 +16,21 @@ const ContactPage = (req,res)=>{
     res.render('pages/Contact')
 }
 const push = function(req,res){
-        models.Contact.create(
-            {
-                username:req.body.name,
-                mobile:req.body.mobile,
-                email:req.body.email,
-                message:req.body.message
-            }
-        );
-        res.render('pages/Home');}
-   module.exports = {
+    models.Contact.create(
+        {
+            username:req.body.name,
+            mobile:req.body.mobile,
+            email:req.body.email,
+            message:req.body.message
+        }
+    );
+    res.render('pages/Home');
+}
+module.exports = {
     HomePage,
     GalleryPage,
     TrainerPage,
     ShopPage,
     ContactPage,
     push
-   };
+};

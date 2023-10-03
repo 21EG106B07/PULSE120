@@ -15,22 +15,23 @@ const ShopPage = (req,res)=>{
 const ContactPage = (req,res)=>{
     res.render('pages/Contact')
 }
-const push = function(req,res){
-    models.Contact.create(
-        {
-            username:req.body.name,
-            mobile:req.body.mobile,
-            email:req.body.email,
-            message:req.body.message
-        }
-    );
-    res.redirect('/');
+const ContactPage_post = ( req, res)=>{
+    const {name, mobile, email, message} = req.body;
+    const newRecord = new models.Contact({
+        username:name,
+        mobile:mobile,
+        email:email,
+        message:message
+    });
+    newRecord.save();
+    res.redirect('/')
 }
+
 module.exports = {
     HomePage,
     GalleryPage,
     TrainerPage,
     ShopPage,
     ContactPage,
-    push
+    ContactPage_post
 };

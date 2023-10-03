@@ -15,7 +15,7 @@ router.get('/Shop', ctrlLocations.ShopPage);
 //GET Contact page
 router.get('/contact', ctrlLocations.ContactPage);
 //POST Contact Page
-router.post('/contact',upload.none(),ctrlLocations.push);
+router.post('/contact',ctrlLocations.ContactPage_post);
 //GET About page
 router.get('/about', ctrlOthers.About);
 

@@ -49,7 +49,18 @@
         margin-bottom: 20px;
       }
     }
-    
+    .column1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
     .card img {
       display: block;
       margin: 0 auto; /* Center the image horizontally within the card */
@@ -66,8 +77,25 @@
       <div class="card">
         <img src="https://m.media-amazon.com/images/I/81h2yu7SFML._AC_UX679_.jpg" style="width:100%">
         <p>MCPORO Workout Shirts for Men Short Sleeve Quick Dry Athletic Gym Active T Shirt Moisture Wicking</p>
-        <p class="price">$43.99</p>
-        <a class="btn bt" href="https://www.amazon.com/MCPORO-Workout-Athletic-Moisture-Wicking/dp/B08BBYCN46/ref=sr_1_1_sspa?keywords=gym+shirts&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Add to cart</a>
+        <!--p class="price">$43.99</p-->
+        <div class="row1">
+          <div class="column1">
+            <a href="https://www.amazon.com/MCPORO-Workout-Athletic-Moisture-Wicking/dp/B08BBYCN46/ref=sr_1_1_sspa?keywords=gym+shirts&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">
+              <img src="./images/Fotoram.io.jpg" style="width:100%">
+            </a>
+          </div>
+          <div class="column1">
+            <a href="https://www.myntra.com/tshirts/ftx/ftx-pack-of-3-colourblocked-round-neck-dry-fit-sports-t-shirt/24368966/buy" target="_blank">
+              <img src="./images/Fotoram.io1.jpg" style="width:100%">
+            </a>
+          </div>
+          <div class="column1">
+            <a href="https://www.flipkart.com/tqh-solid-men-round-neck-yellow-light-green-maroon-t-shirt/p/itm0b970aabd771d?pid=TSHGPD3PRTNYBNNG&cmpid=product.share.pp&_refId=PP.65c60124-94fe-4a7b-8121-3e11b6fbac24.TSHGPD3PRTNYBNNG&_appId=WA" target="_blank">
+              <img src="./images/Fotoram.io2.jpg" style="width:100%">
+            </a>
+          </div>
+        </div>
+        
       </div>
     </div>
     <!--div class="column">
@@ -89,25 +117,76 @@
           <div class="card">
             <img src="https://m.media-amazon.com/images/I/51ychj3oHxL._AC_UL480_FMwebp_QL65_.jpg" style="width:50%">
             <p>BROKIG Mens Zip Joggers Pants - Casual Gym Workout Track Pants Comfortable Slim Fit Tapered Sweatpants with Pockets</p>
-            <p class="price">$28.99</p>
-            <a class="btn bt" href="https://www.amazon.com/BROKIG-Mens-Zip-Jogger-Pants/dp/B071FJ88QJ/ref=sr_1_14_sspa?keywords=gym+pants&sr=8-14-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1" target="_blank">Add to cart</a>
+            <!--p class="price">$28.99</p-->
+            <div class="row1">
+              <div class="column1">
+                <a href="https://www.amazon.com/BROKIG-Mens-Zip-Jogger-Pants/dp/B071FJ88QJ/ref=sr_1_14_sspa?keywords=gym+pants&sr=8-14-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1" target="_blank">
+                  <img src="./images/Fotoram.io.jpg" style="width:100%">
+                </a>
+              </div>
+              <div class="column1">
+                <a href="https://www.myntra.com/track-pants/hrxbyhrithikroshan/hrx-by-hrithik-roshan-men-navy-blue-solid-bio-wash-joggers/18204214/buy" target="_blank">
+                  <img src="./images/Fotoram.io1.jpg" style="width:100%">
+                </a>
+              </div>
+              <div class="column1">
+                <a href="https://www.flipkart.com/urbano-fashion-jogger-fit-men-black-jeans/p/itmf3vzsqehzhpcd?pid=JEAEWZRCKYKYZZAP&cmpid=product.share.pp&_refId=PP.24b6de9f-2ecb-4595-b91b-5c37997b44d6.JEAEWZRCKYKYZZAP&_appId=WA" target="_blank">
+                  <img src="./images/Fotoram.io2.jpg" style="width:100%">
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
         <div class="column">
             <div class="card">
               <img src="https://m.media-amazon.com/images/I/71KjPeUVjZL._AC_UX500_.jpg" style="width:100%">
               <p>WHITIN Men's Cross-Trainer | Barefoot & Minimalist Shoe | Zero Drop Sole | Wide Toe Box</p>
-              <p class="price">$43.88</p>
-              <a class="btn bt" href="https://www.amazon.com/WHITIN-Minimalist-Barefoot-Training-Treadmill/dp/B08QHJ6MGS/ref=sr_1_1_sspa?keywords=gym+shoes&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Add to cart</a>
+              <!--p class="price">$43.88</p-->
+              <div class="row1">
+                <div class="column1">
+                  <a href="https://www.amazon.com/WHITIN-Minimalist-Barefoot-Training-Treadmill/dp/B08QHJ6MGS/ref=sr_1_1_sspa?keywords=gym+shoes&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">
+                    <img src="./images/Fotoram.io.jpg" style="width:100%">
+                  </a>
+                </div>
+                <div class="column1">
+                  <a href="https://www.myntra.com/sports-shoes/nike/nike-revolution-5-mens-road-running-shoes/24427482/buy" target="_blank">
+                    <img src="./images/Fotoram.io1.jpg" style="width:100%">
+                  </a>
+                </div>
+                <div class="column1">
+                  <a href="https://www.flipkart.com/footup-men-s-comfortable-trending-premium-shoe-training-gym-shoes-men/p/itmdd0d9715b5157?pid=SHOGKRTYTF4QHXJC&cmpid=product.share.pp&_refId=PP.eaff8b1c-3f05-45b2-b2d9-fcb34c1e2370.SHOGKRTYTF4QHXJC&_appId=MR" target="_blank">
+                    <img src="./images/Fotoram.io2.jpg" style="width:100%">
+                  </a>
+                </div>
+              </div>
+              
             </div>  
         </div>
         <div class="column">
             <div class="card">
               <img src="https://m.media-amazon.com/images/I/51D7YpNxpyL._AC_UL480_FMwebp_QL65_.jpg" style="width:50%">
               <p>BlenderBottle Classic V2 Shaker Bottle Perfect for Protein Shakes and Pre Workout, 28-Ounce, Black</p>
-              <p class="price">$10.99</p>
-              <a class="btn bt" href="https://www.amazon.com/BlenderBottle-C03596-Classic-Bottle-28-Ounce/dp/B07TL6PNLD/ref=sr_1_4?keywords=gym+bottle&sr=8-4" target="_blank">Add to cart</a>
-            </div>  
+              <!--p class="price">$10.99</p-->
+              <div class="row1">
+                <div class="column1">
+                  <a href="https://www.amazon.com/BlenderBottle-C03596-Classic-Bottle-28-Ounce/dp/B07TL6PNLD/ref=sr_1_4?keywords=gym+bottle&sr=8-4" target="_blank">
+                    <img src="./images/Fotoram.io.jpg" style="width:100%">
+                  </a>
+                </div>
+                <div class="column1">
+                  <a href="https://www.myntra.com/water-bottle/boldfit/boldfit-black-printed-cyclone-gym-water-bottle-shakers-500-ml/17673736/buy" target="_blank">
+                    <img src="./images/Fotoram.io1.jpg" style="width:100%">
+                  </a>
+                </div>
+                <div class="column1">
+                  <a href="https://www.flipkart.com/strauss-spark-stainless-steel-water-bottle-rubber-finish-sipper-bottle-gym-750-ml/p/itmfea2a93763e85?pid=BOTFDYG99GYXRUFT&cmpid=product.share.pp&_refId=PP.7ab012a9-b8aa-4e46-9c0e-b543901e2c00.BOTFDYG99GYXRUFT&_appId=WA" target="_blank">
+                    <img src="./images/Fotoram.io2.jpg" style="width:100%">
+                  </a>
+                </div>
+              </div>
+              
+              </div>  
         </div>
   </div>
 
@@ -118,33 +197,92 @@
         <div class="card">
           <img src="https://m.media-amazon.com/images/I/61BbKeZ6sNL.__AC_SX300_SY300_QL70_FMwebp_.jpg" style="width:100%">
           <p>Muscle Feast Creapure Creatine Monohydrate Powder for Muscle Growth Nutritional_Supplement, Vegan Keto Friendly Gluten-Free Easy to Mix, Unflavored, 300g, 55.0 Servings (Pack of 1)</p>
-          <p class="price">$33.99</p>
-          <a class="btn bt" href="https://www.amazon.com/Muscle-Feast-Monohydrate-Gluten-Free-Unflavored/dp/B008S0I1Q4/ref=sr_1_4_sspa?keywords=muscleblaze+creatine+monohydrate&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Add to cart</a>
+          <!--p class="price">$33.99</p-->
+          <div class="row1">
+            <div class="column1">
+              <a href="https://www.amazon.com/Muscle-Feast-Monohydrate-Gluten-Free-Unflavored/dp/B008S0I1Q4/ref=sr_1_4_sspa?keywords=muscleblaze+creatine+monohydrate&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">
+                <img src="./images/Fotoram.io.jpg" style="width:100%">
+              </a>
+            </div>
+            
+            <div class="column1">
+              <a href="https://www.flipkart.com/muscletech-platinum-100-creatine/p/itmf3kcrtkgpm5v9?pid=PSLEAVZ3W7DA9AD6&cmpid=product.share.pp&_refId=PP.dd142daa-7a84-4a23-a35d-18ed98eaf32d.PSLEAVZ3W7DA9AD6&_appId=WA" target="_blank">
+                <img src="./images/Fotoram.io2.jpg" style="width:100%">
+              </a>
+            </div>
+          </div>
+          
         </div>
       </div>
           <div class="column">
             <div class="card">
               <img src="https://m.media-amazon.com/images/I/41L2GfzDkpL.__AC_SX300_SY300_QL70_FMwebp_.jpg" style="width:100%">
               <p>BROKIG Mens Zip Joggers Pants - Casual Gym Workout Track Pants Comfortable Slim Fit Tapered Sweatpants with PocketsMuscleBlaze Whey Performance (70%) Protein, 4.4 lb Chocolate</p>
-              <p class="price">$178.30</p>
-              <a class="btn bt" href="https://www.amazon.com/MuscleBlaze-Whey-Performance-Protein-Chocolate/dp/B07PMDKRWL/ref=sr_1_5?keywords=muscleblaze+protein&sr=8-5" target="_blank">Add to cart</a>
+              <!--p class="price">$178.30</p-->
+              <div class="row1">
+                <div class="column1">
+                  <a href="https://www.amazon.com/MuscleBlaze-Whey-Performance-Protein-Chocolate/dp/B07PMDKRWL/ref=sr_1_5?keywords=muscleblaze+protein&sr=8-5" target="_blank">
+                    <img src="./images/Fotoram.io.jpg" style="width:100%">
+                  </a>
+                </div>
+                <div class="column1">
+                  <a href="https://www.myntra.com/proteins/muscleblaze/muscleblaze-biozyme-performance-whey-protein-rich-choclate-flavour-1kg/25248982/buy" target="_blank">
+                    <img src="./images/Fotoram.io1.jpg" style="width:100%">
+                  </a>
+                </div>
+                <div class="column1">
+                  <a href="https://www.flipkart.com/muscleblaze-super-xxl-muscle-weight-gainers-mass-gainers/p/itmf1c768c087927?pid=PSLF4EAGWM7RFW7G&cmpid=product.share.pp&_refId=PP.3f687acb-7c76-4ade-89a3-1e04b817c52f.PSLF4EAGWM7RFW7G&_appId=WA" target="_blank">
+                    <img src="./images/Fotoram.io2.jpg" style="width:100%">
+                  </a>
+                </div>
+              </div>
+              
             </div>
           </div>
           <div class="column">
               <div class="card">
                 <img src="https://m.media-amazon.com/images/I/71vZLDDvSIL.__AC_SX300_SY300_QL70_FMwebp_.jpg" style="width:100%">
                 <p>Foclassic Mens Workout Gloves Weight Lifting Gloves for Men Women Gym Exercise Gloves with Wrist Wrap Support Palm Protection and Grips Gloves for Women Wrist Wrap Gloves for Sport Daily Use</p>
-                <p class="price">$20.99</p>
-                <a class="btn bt" href="https://www.amazon.com/Workout-Lifting-Exercise-Protection-Training/dp/B0BR55DMBN/ref=sxin_15_sbv_search_btf?content-id=amzn1.sym.5795aee5-71f0-4369-b632-e8c78407f2cf%3Aamzn1.sym.5795aee5-71f0-4369-b632-e8c78407f2cf&cv_ct_cx=gym%2Bgloves&keywords=gym%2Bgloves&pd_rd_i=B0BR55DMBN&sbo=EO%2BcdOgoisx3waG5xqcZQA%3D%3D&sr=1-1-5190daf0-67e3-427c-bea6-c72c1df98776&th=1" target="_blank">Add to cart</a>
+                <!--p class="price">$20.99</p-->
+                <div class="row1">
+                  <div class="column1">
+                    <a href="https://www.amazon.com/Workout-Lifting-Exercise-Protection-Training/dp/B0BR55DMBN/ref=sxin_15_sbv_search_btf?content-id=amzn1.sym.5795aee5-71f0-4369-b632-e8c78407f2cf%3Aamzn1.sym.5795aee5-71f0-4369-b632-e8c78407f2cf&cv_ct_cx=gym%2Bgloves&keywords=gym%2Bgloves&pd_rd_i=B0BR55DMBN&sbo=EO%2BcdOgoisx3waG5xqcZQA%3D%3D&sr=1-1-5190daf0-67e3-427c-bea6-c72c1df98776&th=1" target="_blank">
+                      <img src="./images/Fotoram.io.jpg" style="width:100%">
+                    </a>
+                  </div>
+                  <div class="column1">
+                    <a href="https://www.myntra.com/gloves/kobo/kobo-women-synthetic-weight-lifting-fitness-gym-hand-gloves/23973730/buy" target="_blank">
+                      <img src="./images/Fotoram.io1.jpg" style="width:100%">
+                    </a>
+                  </div>
+                  <div class="column1">
+                    <a href="https://www.flipkart.com/gocart-half-finger-tactical-gloves-military-army-shooting-hunting-climbing-cycling-gym-fitness/p/itm4da8ce39634b6?pid=SGEFHYGVUSVZUS3Z&cmpid=product.share.pp&_refId=PP.16fb1924-84bf-4855-9df5-1bf7c4f79221.SGEFHYGVUSVZUS3Z&_appId=MR" target="_blank">
+                      <img src="./images/Fotoram.io2.jpg" style="width:100%">
+                    </a>
+                  </div>
+                </div>
+
               </div>  
           </div>
           <div class="column">
               <div class="card">
                 <img src="https://m.media-amazon.com/images/I/7192eL8KEhL.__AC_SX300_SY300_QL70_FMwebp_.jpg" style="width:100%">
                 <p>FLYFE Grip Strength Trainer, Plastic, 2 Pack 11-132 lbs, Forearm Strengthener, Hand Squeezer Adjustable Resistance, Hand Grip Strengthener for Muscle Building and Injury Recovery</p>
-                <p class="price">$12.99</p>
-                <a class="btn bt" href="https://www.amazon.com/FLYFE-Strengthener-Adjustable-Exerciser-Resistance/dp/B0915TY76D/ref=sr_1_5?keywords=hand%2Bgrips&sr=8-5&th=1" target="_blank">Add to cart</a>
-              </div>  
+                <!--p class="price">$12.99</p-->
+                <div class="row1">
+                  <div class="column1">
+                    <a href="https://www.amazon.com/FLYFE-Strengthener-Adjustable-Exerciser-Resistance/dp/B0915TY76D/ref=sr_1_5?keywords=hand%2Bgrips&sr=8-5&th=1" target="_blank">
+                      <img src="./images/Fotoram.io.jpg" style="width:100%">
+                    </a>
+                  </div>
+                  
+                  <div class="column1">
+                    <a href="https://www.flipkart.com/gjshop-adjustable-hand-grips-10kg-40kg-strong-wrist-forearms-exercise-home-gym-grip-fitness-grip/p/itmb04f735ffcd92?pid=FGPGAW5XBDGXKKUH&cmpid=product.share.pp&_refId=PP.0064d4f8-3298-4729-a9a3-431262ec66fe.FGPGAW5XBDGXKKUH&_appId=WA" target="_blank">
+                      <img src="./images/Fotoram.io2.jpg" style="width:100%">
+                    </a>
+                  </div>
+                </div>
+                </div>  
           </div>
     </div>
   
